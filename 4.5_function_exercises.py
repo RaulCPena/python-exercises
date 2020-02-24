@@ -17,10 +17,8 @@ def is_vowel(x):
 # consonant, False otherwise. Use your is_vowel function to accomplish
 # this
 def is_consonant(x):
-    return not is_vowel(x)
-    
-        
-is_consonant('b')
+    letters = 'abcdefghijklmnopqrstuvwxyz'
+    return len(x) == 1 and x.lower() in letters and not is_vowel(x)
 
 # Question 4
 # Define a function that accepts a string that is a word. 
