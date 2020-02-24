@@ -9,7 +9,7 @@ def is_two (x):
 # Define a function named is_vowel. It should return True if the passed string is a vowel, 
 # False otherwise.
 def is_vowel(x):
-    return x.lower() in 'aeiou'
+    return len(x) == 1 and x.lower() in 'aeiou'
 
 # Question 3
 # Define a function named is_consonant. It should return True if the 
