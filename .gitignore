@@ -6,3 +6,4 @@ __pycache__/
 ignore
 env.py
 4.8.4.4_advanced_instructor.ipynb
+df1 = pd.read_csv("cc_institution_detail
